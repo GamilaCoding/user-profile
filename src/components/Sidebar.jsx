@@ -2,19 +2,19 @@ import React from 'react';
 
 const Sidebar = () => {
   return (
-    <aside className="bg-white shadow-lg w-64 p-4">
+    <aside className="bg-[#3b82f6] shadow-lg w-64 p-4 text-white">
       <ul className="space-y-4">
-        <li className="font-semibold text-gray-700">
-          <a href="#dashboard" className="hover:text-blue-500">Dashboard</a>
+        <li className="font-semibold">
+          <a href="#dashboard" className="hover:underline">Dashboard</a>
         </li>
-        <li className="font-semibold text-gray-700">
-          <a href="#projects" className="hover:text-blue-500">Projects</a>
+        <li className="font-semibold">
+          <a href="#projects" className="hover:underline">Projects</a>
         </li>
-        <li className="font-semibold text-gray-700">
-          <a href="#messages" className="hover:text-blue-500">Messages</a>
+        <li className="font-semibold">
+          <a href="#messages" className="hover:underline">Messages</a>
         </li>
-        <li className="font-semibold text-gray-700">
-          <a href="#settings" className="hover:text-blue-500">Settings</a>
+        <li className="font-semibold">
+          <a href="#settings" className="hover:underline">Settings</a>
         </li>
       </ul>
     </aside>
